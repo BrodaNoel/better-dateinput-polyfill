@@ -1,8 +1,8 @@
 /**
  * better-dateinput-polyfill: input[type=date] polyfill for better-dom
- * @version 1.5.2 Fri, 01 May 2015 06:53:12 GMT
+ * @version 1.5.2 Thu, 26 Feb 2015 14:03:58 GMT
  * @link https://github.com/chemerisuk/better-dateinput-polyfill
- * @copyright 2015 Maksim Chemerisuk
+ * @copyright 2014 Maksim Chemerisuk
  * @license MIT
  */
 (function(DOM, BASE_CLASS, VK_SPACE, VK_TAB, VK_ENTER, VK_ESCAPE, VK_BACKSPACE, VK_DELETE, DateUtils, testDateInput) {
@@ -189,7 +189,6 @@
             label.value(formattedValue);
         },
         _clickCalendar: function(calendar, target) {
-            console.log("Click!");
             var targetDate;
 
             if (target.matches("a")) {
